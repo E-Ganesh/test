@@ -186,4 +186,4 @@ if __name__ == '__main__':
     print("📄  ReDoc UI    →  http://127.0.0.1:8000/redoc/")
     print("🔗  Hello API   →  http://127.0.0.1:8000/api/hello/")
     print("🔗  Calculator  →  http://127.0.0.1:8000/api/calculator/\n")
-    call_command('runserver', '8000')
+    call_command('runserver', '0.0.0.0:8000')
